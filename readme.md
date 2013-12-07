@@ -37,7 +37,7 @@ Some basic information on interacting with the vagrant box
 
 * User: root
 * Password: (blank)
-* DB Name: database
+* DB Name: database_vagrant
 
 
 ### PHPmyAdmin

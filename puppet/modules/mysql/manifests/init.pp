@@ -31,7 +31,7 @@ class mysql
     { 
         "create-default-db":
             unless => "/usr/bin/mysql -uroot -p$mysqlPassword database",
-            command => "/usr/bin/mysql -uroot -p$mysqlPassword -e 'create database `database`;'",
+            command => "/usr/bin/mysql -uroot -p$mysqlPassword -e 'create database `database_vagrant`;'",
             require => [Service["mysql"], Exec["set-mysql-password"]]
     }
 
